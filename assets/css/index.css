@@ -1,0 +1,36 @@
+:root {
+  --color-background: #e5edf1;
+}
+html,
+body,
+main {
+  width: 100%;
+  height: 100%;
+  background-color: var(--color-background);
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.section-iniciosesion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.logo {
+  width: 6rem;
+  margin: 0 auto;
+}
+
+.section-iniciosesion button {
+  font-size: 1rem;
+}
+.section-iniciosesion a {
+  text-decoration: none;
+  color: white;
+}
