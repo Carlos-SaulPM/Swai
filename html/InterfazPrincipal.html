@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../assets/css/normalize.css" />
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../assets/css/interfazPrincipal.css" />
+    <title>Interfaz</title>
+  </head>
+  <body>
+    <header class="container-md ps-0">
+      <div class="d-flex flex-column flex-shrink-0 p-3 text-white sidebar">
+        <a
+          href="/"
+          class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none"
+        >
+          <img
+            class="logo"
+            alt="svgImg"
+            src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iNTAiIGhlaWdodD0iNTAiIHZpZXdCb3g9IjAgMCA1MCA1MCI+CjxwYXRoIGQ9Ik0gMTEuOTg0Mzc1IDQgQSAxLjAwMDEgMS4wMDAxIDAgMCAwIDExLjI5Mjk2OSA0LjI5Mjk2ODggTCAzLjI5Mjk2ODggMTIuMjkyOTY5IEEgMS4wMDAxIDEuMDAwMSAwIDAgMCAzIDEzIEwgMyAzNiBBIDEuMDAwMSAxLjAwMDEgMCAwIDAgMy4yOTI5Njg4IDM2LjcwNzAzMSBMIDEzLjI5Mjk2OSA0Ni43MDcwMzEgQSAxLjAwMDEgMS4wMDAxIDAgMCAwIDE1IDQ2IEwgMTUgMjUuNDE0MDYyIEwgMjQuMjkyOTY5IDM0LjcwNzAzMSBBIDEuMDAwMSAxLjAwMDEgMCAwIDAgMjUuNzA3MDMxIDM0LjcwNzAzMSBMIDM1IDI1LjQxNDA2MiBMIDM1IDQ2IEEgMS4wMDAxIDEuMDAwMSAwIDAgMCAzNi43MDcwMzEgNDYuNzA3MDMxIEwgNDYuNzA3MDMxIDM2LjcwNzAzMSBBIDEuMDAwMSAxLjAwMDEgMCAwIDAgNDcgMzYgTCA0NyAxMyBBIDEuMDAwMSAxLjAwMDEgMCAwIDAgNDYuNzA3MDMxIDEyLjI5Mjk2OSBMIDM4LjcwNzAzMSA0LjI5Mjk2ODggQSAxLjAwMDEgMS4wMDAxIDAgMCAwIDM3LjI5Mjk2OSA0LjI5Mjk2ODggTCAyNSAxNi41ODU5MzggTCAxMi43MDcwMzEgNC4yOTI5Njg4IEEgMS4wMDAxIDEuMDAwMSAwIDAgMCAxMS45ODQzNzUgNCB6IE0gMTIgNi40MTQwNjI1IEwgMjQgMTguNDE0MDYyIEwgMjQgMzEuNTg1OTM4IEwgNS40MTQwNjI1IDEzIEwgMTIgNi40MTQwNjI1IHogTSAzOCA2LjQxNDA2MjUgTCA0NC41ODU5MzggMTMgTCAyNiAzMS41ODU5MzggTCAyNiAxOC40MTQwNjIgTCAzOCA2LjQxNDA2MjUgeiBNIDUgMTUuNDE0MDYyIEwgMTMgMjMuNDE0MDYyIEwgMTMgNDMuNTg1OTM4IEwgNSAzNS41ODU5MzggTCA1IDE1LjQxNDA2MiB6IE0gNDUgMTUuNDE0MDYyIEwgNDUgMzUuNTg1OTM4IEwgMzcgNDMuNTg1OTM4IEwgMzcgMjMuNDE0MDYyIEwgNDUgMTUuNDE0MDYyIHoiPjwvcGF0aD4KPC9zdmc+"
+          />
+
+          <span class="fs-4">Sidebar</span>
+        </a>
+        <hr />
+        <ul class="sidebar-elements nav nav-pills flex-column mb-auto">
+          <li class="nav-item">
+            <a
+              href="#"
+              class="sidebar-element nav-link active"
+              aria-current="page"
+            >
+              Pedidos entrantes
+            </a>
+          </li>
+          <li>
+            <a href="#" class="sidebar-element nav-link text-white">
+              Pedidos en proceso
+            </a>
+          </li>
+          <li>
+            <a href="#" class="sidebar-element nav-link text-white">
+              Reportes
+            </a>
+          </li>
+        </ul>
+        <hr />
+        <div class="dropdown">
+          <a
+            href="#"
+            class="d-flex align-items-center text-white text-decoration-none dropdown-toggle"
+            id="dropdownUser1"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            <img
+              src="https://github.com/mdo.png"
+              alt=""
+              width="32"
+              height="32"
+              class="rounded-circle me-2"
+            />
+            <strong>mdo</strong>
+          </a>
+          <ul
+            class="dropdown-menu dropdown-menu-dark text-small shadow"
+            aria-labelledby="dropdownUser1"
+          >
+            <li><a class="dropdown-item" href="#">New project...</a></li>
+            <li><a class="dropdown-item" href="#">Settings</a></li>
+            <li><a class="dropdown-item" href="#">Profile</a></li>
+            <li><hr class="dropdown-divider" /></li>
+            <li><a class="dropdown-item" href="#">Sign out</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <main class="container">
+      <h1>Reportes</h1>
+      <button type="button" class="btn btn-primary">Primary</button>
+      <table class="table table-hover">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Factura</th>
+            <th scope="col">Descripción</th>
+            <th scope="col">Column heading</th>
+            <th scope="col">Lote</th>
+            <th scope="col">Caducidad</th>
+            <th scope="col">Cantidad</th>
+            <th scope="col">Estado</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="table-active">
+            <th scope="row">1</th>
+            <td>Column content</td>
+            <td>Column content</td>
+            <td>Column content</td>
+            <td>Column content</td>
+            <td>Column content</td>
+            <td>Column content</td>
+            <td>Column content</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Column content</td>
+            <td>Column content</td>
+            <td>Column content</td>
+            <td>Column content</td>
+            <td>Column content</td>
+            <td>Column content</td>
+            <td>Column content</td>
+          </tr>
+          <tr class="table-active">
+            <th scope="row">1</th>
+            <td>Column content</td>
+            <td>Column content</td>
+            <td>Column content</td>
+            <td>Column content</td>
+            <td>Column content</td>
+            <td>Column content</td>
+            <td>Column content</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Column content</td>
+            <td>Column content</td>
+            <td>Column content</td>
+            <td>Column content</td>
+            <td>Column content</td>
+            <td>Column content</td>
+            <td>Column content</td>
+          </tr>
+        </tbody>
+      </table>
+    </main>
+  </body>
+</html>
